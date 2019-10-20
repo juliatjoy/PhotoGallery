@@ -7,14 +7,16 @@ gem 'rails', '~> 5.2.3'
 gem 'pg', '~> 0.18.1'
 gem 'puma', '~> 3.11'
 
+gem 'faraday'
+gem 'figaro'
+
 gem 'sass-rails', '~> 5'
 gem 'font-awesome-rails'
-gem 'bootstrap', '~> 4.2.1'
+gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 
-gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 
 gem 'jbuilder', '~> 2.7'
